@@ -1,0 +1,71 @@
+@import "defaults";
+
+#bg-slider{
+    background-color:$black;
+        .carousel-item{
+            height:400px;
+            width:100%;
+                img{
+                    height:100%;
+                    width:100%;
+                    object-fit:cover;
+                    
+                }
+                .slider-buttons{
+                    #watch-now-btn{
+                        cursor: pointer;
+                        background-color:$purple;
+                        color:$white;
+                        outline:none;
+                        border:none;
+                        padding:5px 25px;
+                        font-weight:500;
+                        border-radius:4px;
+                    }
+                    #watch-after{
+                        cursor: pointer;
+                        background-color:transparent;
+                        outline:none;
+                        border:none;
+                        color:$white;
+                        font-weight:500;
+                        margin-left:30px;
+                        &:hover{
+                            color:$purple;
+                            transition:0.5s;
+                        }
+                            i{
+                                margin-right:5px;
+                            }
+                        
+                    }
+                }
+        }
+        .carousel-control-prev-icon{
+            height:30px;
+            width:30px;
+            margin-right:65%;
+        }
+        .carousel-control-next-icon{
+            height:30px;
+            width:30px;
+            margin-left:65%;
+        }
+}
+
+.item {
+    background : #1ccacd;
+    height: 150px;
+  }
+  .my-owl-nav {
+    margin-top: 40px;
+  }
+  .my-owl-nav span {
+    background:#eaeaea;
+    padding: 20px;
+    margin: 0 4px;
+  }
+  
+  .my-owl-nav span:hover {
+    cursor: pointer;
+  }
